@@ -1,0 +1,4 @@
+elasticsearch
+geocoder
+boto3
+datetime
