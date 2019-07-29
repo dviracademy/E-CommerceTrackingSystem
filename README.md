@@ -1,5 +1,5 @@
 # E-CommerceTrackingSystem
-Interview Project for "Directeam" -  Tracking for E-Commerce system 
+Tracking for E-Commerce system 
 
 Hello, 
 This is a E-Commerce project made by dvir.
