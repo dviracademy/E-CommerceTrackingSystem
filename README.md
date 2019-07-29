@@ -5,7 +5,10 @@ Hello,
 This is a E-Commerce project made by dvir.
 
 The proccess of the project:
-REST API service that has single GET enpoint on "/tracker" --> "Producer" container produce json text with the parameters --> send it to SQS queue --> "Consumer" container listen to SQS queue and send it to Elasticsearch container --> Kibana container stores the data and present road map of ip geo location.
+REST API service that has single GET enpoint on "/tracking" (url for example*)  --> "Producer" container produce json text with the parameters --> send it to SQS queue --> "Consumer" container listen to SQS queue and send it to Elasticsearch container --> Kibana container stores the data and present road map of ip geo location.
+
+*E-Commerece product URL for example:
+http://192.168.99.100:5000/tracking?type=clothes&product=jeans&usage=personal&price=30&currency=usd
 
 Instructions:
 1. Build your own queue named 'tracker' in Ireland eu-west-1
